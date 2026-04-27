@@ -42,3 +42,38 @@ button {
 button:hover {
     background: #0056b3;
 }
+
+/* Styles existants pour le formulaire, header, etc. */
+
+/* Styles pour le tableau */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+thead {
+    background: #007BFF;
+    color: #fff;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
