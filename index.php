@@ -81,6 +81,11 @@ $etudiants = $stmt->fetchAll(PDO::FETCH_ASSOC);
                 <td>
                     <a href="update.php?id=<?= $etudiant['id_etudiant'] ?>">Modifier</a> |
                     <a href="delete.php?id=<?= $etudiant['id_etudiant'] ?>">Supprimer</a>
+                    <a href="delete.php?id=<?= $etudiant['id_etudiant'] ?>" 
+   onclick="return confirm('Voulez-vous vraiment supprimer cet étudiant ?');">
+   Supprimer
+</a>
+
                 </td>
             </tr>
         <?php endforeach; ?>
